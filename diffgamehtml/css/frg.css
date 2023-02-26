@@ -1,0 +1,147 @@
+body{
+padding:1%;
+margin:1%;
+height: 100vh;
+}
+
+
+header{
+	background: #000000 ;
+	background-size: 100%; 
+	padding: 1%;	
+    margin-bottom :1%;
+}
+h1{
+	color: #FFFFFF;
+	text-transform:uppercase;
+	text-align: center;	
+	font-size: 2.5rem;
+}
+
+section p {
+    display: block;
+	width: 88%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+	margin-right: 2%;
+	border-radius: 1000px;
+    text-decoration: none;
+    font-size: 2rem;
+	padding: 1%;
+    color: rgba(255,255,255,1);
+	cursor: pointer;
+    }
+#next{
+    font-size: 2 rem;
+    background: rgba(0,100,0,0.5);
+	margin-right: 2%;
+    margin-bottom:1%;
+	border-radius: 1000px;
+    text-decoration: none;
+	padding: 1%;
+    color: rgba(255,255,255,1);   
+    display: none;
+	width: 88%;
+    height: 50px;
+    }
+#changemode{
+    font-size: 2 rem;
+	margin-right: 2%;
+    margin-bottom:1%;
+	border-radius: 1000px;
+    text-decoration: none;
+	padding: 1%;
+    display: block;
+	width: 88%;
+    height: 50px;
+}
+#next:hover{
+background: rgba(0,100,0,0.8);
+
+}
+section p:hover 
+{
+    background: rgba(125,125,0,0.5);    
+}
+#question
+{
+    column-count: 1;
+    column-width: 300px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;	
+	font-size: 1.5rem; 
+    background: rgba(100,100,50,0.1);
+}
+
+.buttons
+{
+    	text-align: center;	    
+}
+
+img
+{
+display: inline-block;
+object-fit: contain;
+   max-width: 100%;
+   max-height: 100%;
+   width: auto;
+   height: auto;
+margin:auto;
+}
+text
+{
+    background: rgba(0,0,0,0);
+}
+section {
+background: rgba(100,100,50,0.1);
+}
+#startap {
+    display:inline-block;
+    width: auto;
+    height: auto;
+}
+#inrow{
+    display:inline-block;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(200, 0,0 ,0.6);
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    
+    border-radius: 50px;
+    text-decoration: none;
+    padding: auto;
+    color: rgba(0,0,0,1);
+}
+@media screen and (min-width: 600px) {
+    section p  {
+    display: inline-block;
+	width: 44%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+	margin-right: 2%;
+	border-radius: 50px;
+    text-decoration: none;
+	padding: 1%;
+    color: rgba(255,255,255,1);
+}
+#next{
+    display: none;
+	width: 92%;
+    margin-left:2%;
+    }   
+#changemode{
+	width: 92%;
+    margin-left:2%;}
+}
+#myCanvas{
+    display:none;
+}
+#topost{
+    border-radius: 0px;
+}
+#progress{
+    display:block;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiffusionGame</title>
+	<link rel="stylesheet" href="css/frg.css">
+  </head>
+  <body>
+	<script type="text/javascript" src="js/movieslist.json"></script>
+	<script type="text/javascript" src="js/similaritytable.json"></script>
+    <script src="js/gamelogics.js"></script>
+	<header>
+
+		<h1>DiffusionGame</h1>
+
+	</header>
+		<main>
+			<div id= 'question'>
+			<img src = " " alt = '' class= 'image' id = "img_guess">
+            </div>
+			<section class = "buttons">
+			<p id=10 onclick = 'ans(1)'>
+            <text id=1 >Answer 1</text>
+            </p>
+			<p id=20 onclick = 'ans(2)'>
+            <text id=2>Answer 2</text>
+            </p>
+            <p id=30 onclick = 'ans(3)'>
+            <text id=3 >Answer 3</text>
+            </p>
+   			<p id=40 onclick = 'ans(4)'>
+            <text id=4>Answer 4</text>
+            </p>
+            <p class= buttons id='next' onclick = 'next()'>NEXT</p>
+            <p id='startap' onclick = 'Startapp()'>START APPLICATION</p>
+            <p class= buttons id='changemode' onclick = 'chgmode()'>EASY</p>
+            </section>
+        <p id = 'inrow'> 0 </p>    
+    </main>
+  </body>  
+</html>
